@@ -1,0 +1,151 @@
+1. What is a DBMS?
+
+Answer: A Database Management System (DBMS) is a software system that manages and organizes data in a structured way, providing efficient storage, retrieval, and manipulation of data.
+2. What are the advantages of using a DBMS?
+
+Answer: Some advantages include data integrity, data security, reduced data redundancy, efficient data retrieval, concurrent data access, and centralized data management.
+3. What is a database schema?
+
+Answer: A database schema defines the structure of a database, including tables, relationships, constraints, and indexes.
+4. What is normalization?
+
+Answer: Normalization is the process of organizing a database's tables and attributes to minimize data redundancy and dependency issues.
+5. What is denormalization?
+
+Answer: Denormalization is the process of intentionally introducing redundancy into a database for the purpose of improving query performance.
+6. Explain ACID properties in DBMS.
+
+Answer: ACID stands for Atomicity, Consistency, Isolation, and Durability – a set of properties that ensure reliable database transactions.
+7. What is a primary key?
+
+Answer: A primary key is a unique identifier for a record in a table. It ensures that each record is uniquely identifiable.
+8. What is a foreign key?
+
+Answer: A foreign key is a field that references the primary key in another table, establishing a relationship between the tables.
+9. What is a composite key?
+
+Answer: A composite key is a primary key composed of multiple attributes to uniquely identify a record.
+10. What is indexing?
+- Answer: Indexing is a database optimization technique that enhances the speed of data retrieval operations by creating an index on selected columns.
+
+11. Differentiate between clustered and non-clustered indexes.
+- Answer: A clustered index determines the physical order of data in a table, while a non-clustered index is a separate structure that points to the data.
+
+12. What is a stored procedure?
+- Answer: A stored procedure is a precompiled set of one or more SQL statements that can be executed as a single unit.
+
+13. Explain the difference between SQL and NoSQL databases.
+- Answer: SQL databases use structured query language and are based on a tabular schema, while NoSQL databases offer flexible, schema-less data storage using various data models.
+
+14. What is the difference between a view and a table?
+- Answer: A table stores data physically, while a view is a virtual table created by defining a query on one or more tables.
+
+15. What is a deadlock? How can it be prevented?
+- Answer: A deadlock occurs when two or more transactions are unable to proceed because each is waiting for a resource that the other holds. Deadlocks can be prevented using techniques like deadlock avoidance and deadlock detection.
+
+16. What is the purpose of the "GROUP BY" clause in SQL?
+- Answer: The "GROUP BY" clause is used to group rows that have the same values in specified columns and then apply aggregate functions on them.
+
+17. Explain the concept of a transaction in DBMS.
+- Answer: A transaction is a sequence of one or more SQL statements treated as a single unit of work. It follows the ACID properties to ensure data consistency.
+
+18. What is a database trigger?
+- Answer: A database trigger is a set of actions that are automatically performed when certain database events, such as an insert, update, or delete operation, occur.
+
+19. What is data normalization and why is it important?
+- Answer: Data normalization is the process of organizing data in a database to eliminate redundancy and anomalies. It helps maintain data integrity and improves overall database performance.
+
+20. Explain the concept of referential integrity.
+- Answer: Referential integrity ensures that relationships between tables are maintained by enforcing foreign key constraints, preventing invalid data from being inserted.
+
+21. What is a database index? Why is it used?
+- Answer: A database index is a data structure that improves the speed of data retrieval operations by providing a quick way to access specific rows of a table. It is used to optimize query performance.
+
+22. Describe the concept of a candidate key.
+- Answer: A candidate key is a minimal set of attributes that can uniquely identify a record in a table. Any one of the candidate keys can be chosen as the primary key.
+
+23. What is a join in SQL?
+- Answer: A join combines rows from two or more tables based on a related column between them, allowing data to be retrieved from multiple tables simultaneously.
+
+24. Explain the difference between a full outer join and an inner join.
+- Answer: An inner join returns only the matching rows between two tables, while a full outer join returns all rows from both tables, including non-matching rows.
+
+25. What is the purpose of the HAVING clause in SQL?
+- Answer: The HAVING clause filters the results of a GROUP BY query based on aggregate functions.
+
+26. What is the difference between a database and a database management system?
+- Answer: A database is a collection of related data, while a database management system (DBMS) is software that facilitates the creation, management, and manipulation of databases.
+
+27. Explain the concept of data redundancy and why it's important to minimize it.
+- Answer: Data redundancy occurs when the same data is stored in multiple places, leading to wasted storage space and potential inconsistencies. Minimizing redundancy helps maintain data accuracy and efficiency.
+
+28. What is the purpose of the "LIKE" operator in SQL?
+- Answer: The "LIKE" operator is used to perform pattern matching within a column of data. It's commonly used with the "%" wildcard to find values that partially match a given pattern.
+
+29. What is a surrogate key?
+- Answer: A surrogate key is an artificial primary key introduced to uniquely identify records when a suitable natural primary key is not available.
+
+30. Explain the concept of data integrity in DBMS.
+- Answer: Data integrity ensures that the data stored in a database is accurate, consistent, and reliable. It is maintained through constraints, rules, and validation checks.
+
+31. What is the difference between a database schema and a database instance?
+- Answer: A database schema defines the structure of the database, including tables, relationships, and constraints. A database instance is a snapshot of the data in a specific moment.
+
+32. What is a subquery in SQL?
+- Answer: A subquery is a query nested within another query. It's used to retrieve data for conditions based on values from another table.
+
+33. Explain the concept of database normalization forms.
+- Answer: Database normalization forms are a set of rules that guide the process of organizing data in a way that minimizes redundancy and dependency issues. They include 1NF, 2NF, 3NF, BCNF, and so on.
+
+34. What is a database transaction log?
+- Answer: A database transaction log is a record of all changes made to the data in a database. It helps ensure data integrity and provides a way to recover the database to a consistent state after a failure.
+
+35. What is a surrogate key, and when might you use one?
+- Answer: A surrogate key is an artificially generated identifier used as the primary key when a natural key is either absent or unsuitable. It can be an auto-incrementing integer or another unique identifier.
+
+36. How does indexing impact query performance?
+- Answer: Indexing improves query performance by creating a data structure that allows the database to quickly locate the rows that satisfy specific search conditions, reducing the need for full table scans.
+
+37. Explain the difference between a unique key and a primary key.
+- Answer: A unique key ensures that a column's values are unique across a table, while a primary key is a unique key used to identify records in a table. A table can have only one primary key but multiple unique keys.
+
+38. What is a self-join in SQL?
+- Answer: A self-join is when a table is joined with itself, typically using aliases to distinguish between the different instances of the table.
+
+39. Describe the concept of data warehousing.
+- Answer: Data warehousing involves collecting, managing, and storing data from various sources in a central repository, often optimized for reporting and analysis.
+
+40. What is a materialized view?
+- Answer: A materialized view is a physical copy of the results of a query, stored in a table-like structure. It's often used to enhance query performance in data warehousing scenarios.
+
+41. What is the purpose of the "ORDER BY" clause in SQL?
+- Answer: The "ORDER BY" clause is used to sort the result set of a query in ascending or descending order based on specified columns.
+
+42. What is the difference between a view and a materialized view?
+- Answer: A view is a virtual table generated by a query, while a materialized view is a physical table that stores the results of a query, which need to be refreshed periodically.
+
+43. Explain the concept of database normalization and its benefits.
+- Answer: Database normalization is the process of structuring data to eliminate redundancy and improve data integrity. It reduces anomalies like insertion, update, and deletion anomalies.
+
+44. How does indexing impact database storage requirements?
+- Answer: Indexing increases storage requirements because indexes are separate data structures that need to be maintained alongside the actual data. However, the benefits in query performance often outweigh the additional storage.
+
+45. What is the difference between a database trigger and a stored procedure?
+- Answer: A database trigger is automatically executed in response to certain database events, while a stored procedure is a set of SQL statements that can be invoked manually or automatically.
+
+46. What is a NoSQL database, and what are some types of NoSQL databases?
+- Answer: NoSQL databases are non-relational databases designed to handle large volumes of unstructured or semi-structured data. Types include document stores, key-value stores, column-family stores, and graph databases.
+
+47. What is database sharding?
+- Answer: Database sharding is a technique of horizontally partitioning a database across multiple servers or nodes to improve scalability and distribute the load.
+
+48. What is the purpose of the "DISTINCT" keyword in SQL?
+- Answer: The "DISTINCT" keyword is used to eliminate duplicate rows from the result set of a query, showing only distinct values.
+
+49. What is database replication?
+- Answer: Database replication involves creating and maintaining duplicate copies of a database on different servers to enhance availability, fault tolerance, and performance.
+
+50. How can you optimize SQL queries for better performance?
+- Answer: Some optimization techniques include using appropriate indexes, minimizing the use of "SELECT *," avoiding correlated subqueries, and optimizing database design for query patterns.
+
+Remember that these answers are intended to provide a general understanding of each question. Depending on the specific interview and the depth of knowledge required, you may need to provide more detailed or specialized answers.
