@@ -87,3 +87,5 @@
 
 30. How does the "fork and exec" technique work for creating new processes?
 - Answer: The "fork" system call creates a new process as a copy of the current process. The "exec" system call then replaces the new process's memory with the desired program's memory image.
+
+These answers should give you a solid foundation to prepare for your operating systems interview. Depending on the specific job and the depth of knowledge required, you might need to provide more detailed or specialized answers.
