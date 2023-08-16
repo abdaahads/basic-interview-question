@@ -1,0 +1,89 @@
+1. What is an operating system?
+- Answer: An operating system is software that manages hardware and software resources of a computer system, providing services for computer programs to function and interact with the hardware.
+
+2. Explain the difference between a kernel and a shell.
+- Answer: The kernel is the core component of an operating system that manages hardware and provides essential services. The shell is the user interface that allows users to interact with the operating system using commands.
+
+3. What are the main functions of an operating system?
+- Answer: The main functions include process management, memory management, file system management, device management, security and access control, and user interface management.
+
+4. Describe the difference between a multi-programming and multi-tasking operating system.
+- Answer: A multi-programming OS executes multiple programs concurrently, switching between them to maximize CPU utilization. A multi-tasking OS goes a step further by allowing multiple tasks within a single program to run concurrently.
+
+5. What is virtual memory?
+- Answer: Virtual memory is a memory management technique that uses a combination of physical RAM and disk space to provide the illusion of a larger memory space. It allows running larger programs than physical memory can accommodate.
+
+6. Explain the concept of a context switch.
+- Answer: A context switch is the process of saving the current state of a process and loading the saved state of another process, enabling the OS to switch between processes to achieve multitasking.
+
+7. What is a deadlock?
+- Answer: A deadlock is a situation where two or more processes are unable to proceed because each is waiting for a resource held by the other, causing a standstill.
+
+8. Differentiate between process and thread.
+- Answer: A process is an independent program in execution, while a thread is a smaller unit of a process that shares the same resources with other threads in the same process.
+
+9. What is a file system?
+- Answer: A file system is a method used by operating systems to organize and store data on storage devices, like hard drives or SSDs.
+
+10. Explain the concept of paging in memory management.
+- Answer: Paging is a memory management scheme where physical memory is divided into fixed-size blocks called frames, and logical memory is divided into fixed-size blocks called pages. Pages are swapped in and out of frames as needed.
+
+11. What is a semaphore?
+- Answer: A semaphore is a synchronization primitive used in concurrent programming to control access to shared resources by multiple processes.
+
+12. What is a race condition?
+- Answer: A race condition occurs when multiple processes or threads access shared resources in an unpredictable order, leading to unexpected results or system crashes.
+
+13. What is a system call?
+- Answer: A system call is a mechanism that allows user-level processes to request services from the operating system, like reading from or writing to files.
+
+14. Explain the difference between preemptive and non-preemptive scheduling.
+- Answer: Preemptive scheduling allows the OS to interrupt a currently executing process and allocate the CPU to another process. Non-preemptive scheduling lets a process continue running until it voluntarily releases the CPU.
+
+15. What is a page fault?
+- Answer: A page fault occurs when a process tries to access a page of memory that is not currently in physical RAM but is instead on secondary storage (like a hard disk). The OS then brings the required page into RAM.
+
+16. Describe the role of the BIOS (Basic Input/Output System).
+- Answer: The BIOS is firmware that initializes hardware components during the boot process and provides basic input and output services to the operating system.
+
+17. What is an interrupt in the context of operating systems?
+- Answer: An interrupt is a signal sent to the CPU by a hardware device or software to indicate that it requires attention or a specific action.
+
+18. Explain the concept of a file descriptor.
+- Answer: A file descriptor is a unique identifier used by the operating system to track and manage open files by processes.
+
+19. What is a fork() system call?
+- Answer: The fork() system call creates a new process as a copy of the calling process. The new process (child process) inherits the parent process's resources and starts executing from the same point.
+
+20. Describe the purpose of a shell in an operating system.
+- Answer: A shell is a command-line interface that allows users to interact with the operating system, run programs, and perform various tasks using text-based commands.
+
+21. What is a zombie process?
+- Answer: A zombie process is a process that has completed execution but still has an entry in the process table. It remains in this state until its parent process retrieves its exit status.
+
+22. How does demand paging differ from pre-paging?
+- Answer: In demand paging, pages are brought into memory only when they are needed. In pre-paging, multiple pages are brought into memory preemptively, even if they are not immediately needed.
+
+23. Explain the concept of I/O-bound and CPU-bound processes.
+- Answer: I/O-bound processes spend more time waiting for input/output operations to complete, while CPU-bound processes spend more time executing CPU instructions.
+
+24. What is a monitor in operating systems?
+- Answer: A monitor is a synchronization construct used to control access to a shared resource in a multithreaded environment.
+
+25. Describe the purpose of a watchdog timer.
+- Answer: A watchdog timer is a hardware or software mechanism that monitors a system's operation. If the system hangs or fails to respond, the watchdog timer can trigger a system reset.
+
+26. What is the purpose of the "nice" command in Unix-like operating systems?
+- Answer: The "nice" command is used to adjust the priority of a process, determining its share of the CPU's time.
+
+27. What is a shell script?
+- Answer: A shell script is a sequence of shell commands written in a file, which can be executed to perform a series of tasks.
+
+28. Explain the concept of a critical section.
+- Answer: A critical section is a portion of code that accesses shared resources and needs to be executed by only one process or thread at a time to avoid conflicts.
+
+29. What is a real-time operating system (RTOS)?
+- Answer: An RTOS is an operating system designed to handle real-time tasks with precise timing constraints, ensuring that critical tasks are executed within predefined time limits.
+
+30. How does the "fork and exec" technique work for creating new processes?
+- Answer: The "fork" system call creates a new process as a copy of the current process. The "exec" system call then replaces the new process's memory with the desired program's memory image.
