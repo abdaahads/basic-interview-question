@@ -1,30 +1,30 @@
 1. What is a DBMS?
+- Answer: A Database Management System (DBMS) is a software system that manages and organizes data in a structured way, providing efficient storage, retrieval, and manipulation of data.
 
-Answer: A Database Management System (DBMS) is a software system that manages and organizes data in a structured way, providing efficient storage, retrieval, and manipulation of data.
 2. What are the advantages of using a DBMS?
+- Answer: Some advantages include data integrity, data security, reduced data redundancy, efficient data retrieval, concurrent data access, and centralized data management.
 
-Answer: Some advantages include data integrity, data security, reduced data redundancy, efficient data retrieval, concurrent data access, and centralized data management.
 3. What is a database schema?
+- Answer: A database schema defines the structure of a database, including tables, relationships, constraints, and indexes.
 
-Answer: A database schema defines the structure of a database, including tables, relationships, constraints, and indexes.
 4. What is normalization?
+- Answer: Normalization is the process of organizing a database's tables and attributes to minimize data redundancy and dependency issues.
 
-Answer: Normalization is the process of organizing a database's tables and attributes to minimize data redundancy and dependency issues.
 5. What is denormalization?
+- Answer: Denormalization is the process of intentionally introducing redundancy into a database for the purpose of improving query performance.
 
-Answer: Denormalization is the process of intentionally introducing redundancy into a database for the purpose of improving query performance.
 6. Explain ACID properties in DBMS.
+- Answer: ACID stands for Atomicity, Consistency, Isolation, and Durability – a set of properties that ensure reliable database transactions.
 
-Answer: ACID stands for Atomicity, Consistency, Isolation, and Durability – a set of properties that ensure reliable database transactions.
 7. What is a primary key?
+- Answer: A primary key is a unique identifier for a record in a table. It ensures that each record is uniquely identifiable.
 
-Answer: A primary key is a unique identifier for a record in a table. It ensures that each record is uniquely identifiable.
 8. What is a foreign key?
+- Answer: A foreign key is a field that references the primary key in another table, establishing a relationship between the tables.
 
-Answer: A foreign key is a field that references the primary key in another table, establishing a relationship between the tables.
 9. What is a composite key?
+- Answer: A composite key is a primary key composed of multiple attributes to uniquely identify a record.
 
-Answer: A composite key is a primary key composed of multiple attributes to uniquely identify a record.
 10. What is indexing?
 - Answer: Indexing is a database optimization technique that enhances the speed of data retrieval operations by creating an index on selected columns.
 
