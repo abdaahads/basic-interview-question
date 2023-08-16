@@ -1,0 +1,151 @@
+1. What is Java?
+Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It's designed to be platform-independent and runs on the Java Virtual Machine (JVM).
+
+2. Explain the main features of Java.
+Java features include platform independence, object-oriented programming, strong type checking, automatic memory management, and the ability to run in a distributed environment.
+
+3. What is the difference between JDK, JRE, and JVM?
+JDK (Java Development Kit) contains tools for compiling, debugging, and running Java programs. JRE (Java Runtime Environment) provides the runtime environment for executing Java applications. JVM (Java Virtual Machine) is the component that executes Java bytecode.
+
+4. Explain the difference between a class and an object.
+A class is a blueprint or template that defines the structure and behavior of objects. An object is an instance of a class that represents a real-world entity and can hold data and behavior.
+
+5. What is the purpose of the 'main' method in Java?
+The 'main' method is the entry point of a Java program. It's the method where the program starts its execution.
+
+6. What is the difference between '==' and '.equals()' in Java?
+'==' is used to compare object references, while '.equals()' is used to compare the content or values of objects.
+
+7. Explain the concept of inheritance in Java.
+Inheritance is a mechanism where a new class (subclass) can inherit properties and behaviors from an existing class (superclass). It promotes code reusability and hierarchy.
+
+8. What is the 'final' keyword used for?
+The 'final' keyword can be used to declare a class, method, or variable as unchangeable or constant.
+
+9. What is method overloading?
+Method overloading allows multiple methods in the same class to have the same name but with different parameters.
+
+10. What is method overriding?
+Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
+
+11. Explain the 'static' keyword in Java.
+The 'static' keyword is used to define class-level members (variables and methods) that can be accessed without creating an instance of the class.
+
+12. What is an abstract class?
+An abstract class is a class that cannot be instantiated on its own and is meant to be subclassed. It may have abstract methods, which must be implemented by its subclasses.
+
+13. What is an interface?
+An interface is a contract that defines a set of abstract methods. Classes implementing an interface must provide concrete implementations for all the methods declared in the interface.
+
+14. What is the difference between an abstract class and an interface?
+An abstract class can have instance variables, constructors, and method implementations, while an interface can only declare abstract methods and constants.
+
+15. What is a constructor?
+A constructor is a special method used to initialize objects. It's called when an object is created and helps set initial values to object attributes.
+
+16. Can you have a constructor in an abstract class?
+Yes, abstract classes can have constructors. These constructors are used to initialize the state of the abstract class.
+
+17. Explain the concept of encapsulation.
+Encapsulation is the practice of bundling data (attributes) and methods (functions) that operate on the data into a single unit called a class. It restricts direct access to the data and enforces access through methods.
+
+18. What is a package in Java?
+A package is a way to organize related classes and interfaces into a single unit. It helps avoid naming conflicts and enhances code organization.
+
+19. How is an exception handled in Java?
+Exceptions are handled using try-catch blocks. Code that might throw exceptions is placed inside a 'try' block, and specific exception types are caught and handled in the 'catch' blocks.
+
+20. What is the difference between 'checked' and 'unchecked' exceptions?
+Checked exceptions are those that are checked at compile-time and must be either caught using try-catch blocks or declared using the 'throws' keyword. Unchecked exceptions are not required to be caught or declared.
+
+21. What is the 'finally' block used for in exception handling?
+The 'finally' block contains code that is guaranteed to be executed, regardless of whether an exception is thrown or not. It's often used for cleanup operations.
+
+22. What are access modifiers in Java?
+Access modifiers control the visibility and accessibility of classes, methods, and variables. The main access modifiers are 'public', 'protected', 'default' (no modifier), and 'private'.
+
+23. What is a static variable?
+A static variable belongs to the class rather than to instances of the class. It's shared among all instances of the class.
+
+24. What is a static method?
+A static method belongs to the class and not to any specific instance. It can be called using the class name and doesn't require an instance to be created.
+
+25. What is a synchronized method?
+A synchronized method is a method that can be accessed by only one thread at a time. It prevents multiple threads from concurrently executing the synchronized code block.
+
+26. Explain the concept of multithreading.
+Multithreading is the ability of a CPU or a single core in a CPU to provide multiple threads of execution concurrently. It enables programs to execute multiple tasks concurrently.
+
+27. What is the 'volatile' keyword used for?
+The 'volatile' keyword is used to declare variables as volatile, indicating that their value may be changed by multiple threads and should not be cached.
+
+28. What is a thread-safe class?
+A thread-safe class is one that can be safely used by multiple threads without causing synchronization or data consistency issues.
+
+29. What is the purpose of the 'this' keyword in Java?
+The 'this' keyword refers to the current instance of the class. It's often used to differentiate between instance variables and method parameters.
+
+30. How does garbage collection work in Java?
+Garbage collection is the process of automatically reclaiming memory occupied by objects that are no longer reachable or in use by the program. The JVM identifies and collects such objects to free up memory.
+
+31. What is the difference between StringBuffer and StringBuilder?
+StringBuffer is synchronized and thread-safe, while StringBuilder is not synchronized and is therefore more efficient in single-threaded scenarios.
+
+32. What is the difference between an ArrayList and a LinkedList?
+An ArrayList is backed by an array and provides fast random access, while a LinkedList is made up of nodes and is better for frequent insertions and deletions.
+
+33. What is the purpose of the 'super' keyword in Java?
+The 'super' keyword is used to access members of the superclass from a subclass and to invoke the superclass's constructor.
+
+34. How is polymorphism achieved in Java?
+Polymorphism in Java is achieved through method overriding and interface implementation, allowing different objects to be treated as objects of a common superclass.
+
+35. Explain the concept of the Java Virtual Machine (JVM).
+The JVM is a virtual machine that enables Java programs to run on different platforms without modification. It translates Java bytecode into machine code specific to the host environment.
+
+36. What is a Lambda expression?
+A Lambda expression is a concise way to represent an anonymous function. It's often used to define inline implementations of functional interfaces.
+
+37. What are the basic principles of Object-Oriented Programming (OOP)?
+OOP principles include encapsulation, inheritance, polymorphism, and abstraction. These principles help in creating modular, reusable, and maintainable code.
+
+38. What is a marker interface?
+A marker interface is an interface with no methods or fields, used to indicate that a class implements a certain behavior or capability.
+
+39. Explain the 'instanceof' operator in Java.
+The 'instanceof' operator is used to test if an object is an instance of a particular class or interface. It returns 'true' if the object is an instance of the specified type, otherwise 'false'.
+
+40. What is a try-with-resources statement?
+The try-with-resources statement is used to automatically close resources (like files, streams) when they are no longer needed, preventing resource leaks.
+
+41. What is reflection in Java?
+Reflection is the ability of a Java program to examine and modify its own structure, classes, methods, and fields at runtime.
+
+42. What is the purpose of the 'transient' keyword?
+The 'transient' keyword is used to indicate that a field should not be serialized when an object is converted to a byte stream (e.g., for storage or network transmission).
+
+43. Explain the concept of a Java Bean.
+A Java Bean is a reusable software component following specific naming and design conventions, used to encapsulate and manipulate data.
+
+44. What is the difference between a shallow copy and a deep copy?
+A shallow copy creates a new object that shares the references to the same nested objects as the original, while a deep copy creates a completely independent copy with new instances of all nested objects.
+
+45. What is the diamond problem in Java?
+The diamond problem occurs in multiple inheritance scenarios when a class inherits from two classes that have a common superclass. It can lead to ambiguity in method resolution.
+
+46. How can you prevent a class from being subclassed?
+You can prevent a class from being subclassed by declaring it as 'final'. A final class cannot have any subclasses.
+
+47. What is the purpose of the 'break' statement in loops?
+The 'break' statement is used to exit a loop prematurely. When encountered, it terminates the loop and continues with the next statement after the loop.
+
+48. What is a JAR file?
+A JAR (Java Archive) file is a compressed file format used to package Java class files, resources, and metadata into a single file for distribution and deployment.
+
+49. Explain the concept of autoboxing and unboxing.
+Autoboxing is the automatic conversion of primitive data types to their corresponding wrapper classes, and unboxing is the opposite conversion from wrapper classes to primitive data types.
+
+50. What is the Java Collections Framework?
+The Java Collections Framework is a set of classes and interfaces that provide commonly used data structures like lists, sets, maps, and queues, along with algorithms for their manipulation and iteration.
+
+Remember that interview questions can vary in depth and complexity, so it's important to understand the concepts thoroughly rather than just memorizing the answers.
